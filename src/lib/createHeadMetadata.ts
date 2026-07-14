@@ -9,7 +9,7 @@ export const createHeadMetadata = (pathname: string): Metadata => {
   const fullTitle = subTitle ? `${title} | ${subTitle}` : title;
   const description = `${title}の公式サイトです`;
   const origin = "https://festia.moe";
-  const ogpImage = `${origin}/ogp_icon.jpg?only2025`;
+  const ogpImage = `${origin}/ogp_icon.jpg?only2026`;
 
   return {
     title: fullTitle,
