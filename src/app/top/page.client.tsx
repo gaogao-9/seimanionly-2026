@@ -46,7 +46,13 @@ const Page: React.FC = () => {
               imageWidth={topImageSizes.logo.w}
               imageHeight={topImageSizes.logo.h}
               clipRect={logoClipRect}
-              xalign="center"
+              xalign={[
+                { r: 0, a: 0.4 },
+                { r: 0.4, a: 0.4 },
+                { r: 0.5, a: 0.5 },
+                { r: 0.695652, a: 0.5 },
+                { r: 1, a: 0.5 },
+              ]}
               yalign={[
                 { r: 0, a: 0.5 },
                 { r: 0.5, a: 0.85 },
