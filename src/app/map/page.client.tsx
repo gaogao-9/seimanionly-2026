@@ -72,6 +72,23 @@ const Page: React.FC = () => {
           </div>
         </CardContent>
       </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>サークルリスト</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <CardDescription>
+            <a
+              href="/assets/img/circlelist.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/assets/img/circlelist.jpg" alt="サークルリスト" />
+            </a>
+          </CardDescription>
+        </CardContent>
+      </Card>
     </CardWrapper>
   );
 };
