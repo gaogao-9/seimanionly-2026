@@ -44,14 +44,33 @@ const Page: React.FC = () => {
             来場の記念に総理の皆さんからヒトコト～クダサイ～オネガイ～
           </CardDescription>
         </CardContent>
+      </Card>
+      <Card>
         <CardHeader>
-          <CardSubTitle>アフターイベント</CardSubTitle>
+          <CardTitle>アフターイベント</CardTitle>
+        </CardHeader>
+        <CardHeader>
+          <CardSubTitle>アキナイカク</CardSubTitle>
         </CardHeader>
         <CardContent>
           <CardDescription>
-            即売会パートの後に開催予定！
+            政霊を一人思い浮かべて、質問に答え、政霊を当てる……のはあなた！？
             <br />
-            企画詳細は後日お知らせします。
+            ナイカクが思い浮かべた政霊を、質問して推理しましょう。
+            <br />
+            思い浮かべている政霊を絞り出し、当てろ！&nbsp;ピタリ賞！
+          </CardDescription>
+        </CardContent>
+        <CardHeader>
+          <CardSubTitle>たわしの挑戦状</CardSubTitle>
+        </CardHeader>
+        <CardContent>
+          <CardDescription>
+            史上初の総理個人協賛企画。イベント会場でレッツ戦挙！
+            <br />
+            志願者総理たちに&quot;ちなんだ&quot;お題を発表したら、タイマースタート。
+            <br />
+            制限時間内に難題を突破し、クリア景品ゲットを目指せ！
           </CardDescription>
         </CardContent>
       </Card>
