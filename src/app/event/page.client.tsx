@@ -31,6 +31,8 @@ const Page: React.FC = () => {
             <br />
             会場を政霊たちのイラストで華やかに飾りましょう！
             <br />
+            当日どうしても参加できない総理もぜひご参加ください。
+            <br />
             <a
               className="block mx-auto my-[20px] max-w-[80%]"
               href="/assets/img/event/shikishi_info.jpg"
