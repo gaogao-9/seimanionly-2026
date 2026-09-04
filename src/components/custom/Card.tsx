@@ -12,7 +12,7 @@ export interface CardWrapperProps {
 
 export const CardWrapper: React.FC<CardWrapperProps> = ({ children }) => {
   return (
-    <ShadcnCard className="flex flex-col justify-center mx-4 my-10 lg:mx-8 gap-10">
+    <ShadcnCard className="flex flex-col justify-center mx-4 my-10 lg:mx-8 gap-10 shadow-none">
       {children}
     </ShadcnCard>
   );
