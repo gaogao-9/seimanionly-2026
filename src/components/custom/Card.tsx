@@ -2,7 +2,6 @@ import {
   Card as ShadcnCard,
   CardContent as ShadcnCardContent,
   CardDescription as ShadcnCardDescription,
-  CardFooter as ShadcnCardFooter,
   CardHeader as ShadcnCardHeader,
   CardTitle as ShadcnCardTitle,
 } from "@/components/ui/card";
@@ -13,7 +12,7 @@ export interface CardWrapperProps {
 
 export const CardWrapper: React.FC<CardWrapperProps> = ({ children }) => {
   return (
-    <ShadcnCard className="flex flex-col mx-4 my-10 lg:mx-8 gap-10">
+    <ShadcnCard className="flex flex-col justify-center mx-4 my-10 lg:mx-8 gap-10">
       {children}
     </ShadcnCard>
   );
@@ -25,7 +24,7 @@ export interface CardProps {
 
 export const Card: React.FC<CardProps> = ({ children }) => {
   return (
-    <ShadcnCard className="font-['Noto_Sans_JP',sans-serif] font-light bg-white gap-3 px-4 py-10">
+    <ShadcnCard className="font-['Noto_Sans_JP',sans-serif] font-light bg-white gap-3 mx-auto px-4 py-10 w-full max-w-7xl">
       {children}
     </ShadcnCard>
   );
@@ -76,7 +75,7 @@ export const CardContent: React.FC<CardContentProps> = ({
 }) => {
   return (
     <ShadcnCardContent
-      className={`${noSpacing ? "" : "ml-5"} mb-4 ${className}`}
+      className={`${noSpacing ? "" : "mx-5"} mb-4 ${className}`}
     >
       {children}
     </ShadcnCardContent>

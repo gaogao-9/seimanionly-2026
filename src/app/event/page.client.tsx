@@ -31,7 +31,30 @@ const Page: React.FC = () => {
             <br />
             会場を政霊たちのイラストで華やかに飾りましょう！
             <br />
-            募集条件や宛先は後日お知らせします。
+            <a
+              className="block mx-auto my-[20px] max-w-[80%]"
+              href="/assets/img/event/shikishi_info.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full"
+                src="/assets/img/event/shikishi_info.jpg"
+                alt="色紙募集要項"
+              />
+            </a>
+            <a
+              className="block mx-auto my-[20px] max-w-[80%]"
+              href="/assets/img/event/shikishi_invoice.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="w-full"
+                src="/assets/img/event/shikishi_invoice.jpg"
+                alt="色紙伝票"
+              />
+            </a>
           </CardDescription>
         </CardContent>
         <CardHeader>
